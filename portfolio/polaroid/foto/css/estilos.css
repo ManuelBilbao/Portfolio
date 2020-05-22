@@ -1,0 +1,26 @@
+.foto-polaroid {
+	max-height: 30em;
+	border-right: thin solid black;
+}
+
+.error {
+	font-size: 1.3em;
+}
+
+.principal {
+	text-align: center;
+	margin-top: 3em;
+}
+
+.social {
+	margin: 1em 0;
+}
+
+.social a {
+	margin: 0 0.2em;
+}
+
+.social img {
+	height: 32px;
+	width: 32px;
+}

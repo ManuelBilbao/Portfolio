@@ -1,0 +1,82 @@
+@font-face {
+	font-family: Script;
+	src: url("../fonts/Script.ttf");
+}
+
+@font-face {
+	font-family: OLDENGL;
+	src: url("../fonts/OLDENGL.TTF");
+}
+
+h2 {
+	margin-top: 0;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.col-xs-12:last-child {
+	text-align: center;
+}
+
+.fotoRow {
+	margin-top: 0!important;
+}
+
+.cuadroPrev {
+	display: inline-block;
+	border: thin solid black;
+	/*padding: 15px 15px 0px 15px;*/
+	padding-top: 15px;
+	height: 405px;
+	width: 330px;
+}
+
+.progress {
+	margin-bottom: 0;
+}
+
+.radio label {
+	padding-left: 0;
+}
+
+.radio .col-sm-6 {
+	text-align: center;
+}
+
+.row {
+	margin-top: 3em;
+}
+
+#fuente1 {
+	font-family: Script;
+	font-size: 5em;
+}
+
+#fuente2 {
+	font-family: OLDENGL;
+	font-size: 3em;
+}
+
+#textoPrev {
+	margin: 0;
+	font-size: 50px;
+	font-family: Script;
+	color: #000;
+	margin-top: 5px;
+}
+
+#imgPrev {
+	display: inline-block;
+	background-color: #555;
+	height: 300px;
+	width: 300px;
+	background-repeat: no-repeat;
+}
+
+#progreso {
+	display: none;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
