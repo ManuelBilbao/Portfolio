@@ -19,3 +19,18 @@
 <!-- Custom styles for this template -->
 <link href="/static/css/agency.css?v0.4" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/servicios.css">
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="//192.168.0.116:8000/static/img/favicon/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="//192.168.0.116:8000/static/img/favicon/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="//192.168.0.116:8000/static/img/favicon/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="//192.168.0.116:8000/static/img/favicon/favicon-16x16.png" sizes="16x16" />
+<meta name="application-name" content="Estilo ñ"/>
+<meta name="msapplication-TileColor" content="#ED842A" />
+<meta name="msapplication-TileImage" content="//192.168.0.116:8000/static/img/favicon/mstile-144x144.png" />
+
+<meta name="theme-color" content="#212529">
