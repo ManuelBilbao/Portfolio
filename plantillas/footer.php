@@ -10,7 +10,7 @@
 					<li class="list-inline-item mr-5">
 						<!-- <i class="fas fa-phone-alt"></i> -->
 						<i class="fab fa-whatsapp"></i>&nbsp;
-						<a href="tel:+5491134049633" class="text-body">11 3404-9633</a>
+						<a href="https://wa.me/541134049633" class="text-body">11 3404-9633</a>
 					</li>
 					<li class="list-inline-item">
 						<i class="fas fa-envelope"></i>
