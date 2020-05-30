@@ -2,7 +2,7 @@
 	<div class="card-body text-center">
 		<h4 class="card-title"><?php echo $precio["nombre"] ?></h4>
 		<h4 class="card-title precio mt-3">
-			<?php if ($precio["descuento"]): ?>
+			<?php if (isset($precio["descuento"])): ?>
 				<s class="text-muted text-nowrap">$<?php echo $precio["precio"] ?></s>
 				&nbsp;<span class="text-nowrap text-<?php echo $precio["color"] ?>">$<?php echo $precio["descuento"] ?></span>
 			<?php else: ?>

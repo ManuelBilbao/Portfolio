@@ -9,7 +9,7 @@ header {
 
 .header-bg {
 	width: 100%;
-	min-height: 75vh;
+	min-height: 70vh;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -50,4 +50,8 @@ header {
 .mat-carousel-item {
 	height: auto!important;
 	top: -10%!important;
+}
+
+.page-section {
+	padding: 50px 0;
 }
