@@ -57,23 +57,23 @@
 	<?php if (isset($caracteristicas)): ?>
 		<div id="caracteristicas"></div>
 		<?php foreach ($caracteristicas as $n => $caracteristica): ?>
-			<?php $right = $n % 2 ?>
+			<?php $img_left = $n % 2 ?>
 
 			<?php if ($n > 0): ?><hr class="w-50"><?php endif ?>
 
 			<section class="page-section caracteristicas">
 				<div class="container">
 					<div class="row">
-						<?php if ($right): ?>
-							<div class="col-12 col-lg-6 order-1 order-lg-12 align-self-center">
+						<?php if ($img_left): ?>
+							<div class="col-12 col-lg-6 order-12 align-self-center">
 						<?php else: ?>
 							<div class="col-12 col-lg-6 order-12 order-lg-1 align-self-center">
 						<?php endif ?>
-								<h2 class="section-heading"><?php echo $caracteristica["titulo"] . $left ?></h2>
+								<h2 class="section-heading"><?php echo $caracteristica["titulo"] ?></h2>
 								<p class="text-muted"><?php echo $caracteristica["descripcion"] ?></p>
 							</div>
-						<?php if ($right): ?>
-							<div class="col-12 col-lg-6 order-12 order-lg-1 mb-4 mb-lg-0">
+						<?php if ($img_left): ?>
+							<div class="col-12 col-lg-6 order-1 mb-4 mb-lg-0">
 						<?php else: ?>
 							<div class="col-12 col-lg-6 order-1 order-lg-12 mb-4 mb-lg-0 text-right">
 						<?php endif ?>
