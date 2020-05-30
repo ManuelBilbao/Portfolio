@@ -80,7 +80,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Servicios</h2>
-					<h3 class="section-subheading text-muted">Algunos de los sitios que desarrollamos, no dude en consultarnos por otras necesidades</h3>
+					<h3 class="section-subheading text-muted"></h3>
 				</div>
 			</div>
 			<div class="row text-center">
@@ -166,29 +166,13 @@
 						</div>
 					</a>
 				</div>
-				<!-- <div class="col-md-4 mt-2">
-					<span class="fa-stack fa-4x">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="fas fa-life-ring fa-stack-1x fa-inverse"></i>
-					</span>
-					<h4 class="service-heading">Backups</h4>
-					<p class="text-muted">Protección de tu sitio ante cualquier circunstancia con copias de seguridad semanales o diarias.</p>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-auto m-auto text-center">
+					<h4 class="section-subheading text-muted mb-3">¿No encuentra lo que busca?</h4>
+					<a href="/otros/" class="btn btn-xl btn-primary text-uppercase">Ver más opciones</a>
 				</div>
-				<div class="col-md-4 mt-2">
-					<span class="fa-stack fa-4x">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
-					</span>
-					<h4 class="service-heading">Soporte técnico</h4>
-					<p class="text-muted">Mantenimiento del sitio y resolución de problemas 24/7.</p>
-				</div>
-				<div class="col-md-4 mt-2">
-					<span class="fa-stack fa-4x">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="fas fa-shield-alt fa-stack-1x fa-inverse"></i>
-					</span>
-					<h4 class="service-heading">Protecctión</h4>
-				</div> -->
 			</div>
 		</div>
 	</section>
@@ -226,6 +210,43 @@
 					</span>
 					<h4 class="service-heading">Seguridad</h4>
 					<p class="text-muted">Encriptación SSL/HTTPS para que los sitios sean 100% seguros y confiables. Escencial para el manejo de datos sensibles.</p>
+				</div>
+				<div class="col-md-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-life-ring fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Backups</h4>
+					<p class="text-muted">Protección de tu sitio ante cualquier circunstancia con copias de seguridad semanales o diarias.</p>
+				</div>
+				<div class="col-md-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-cogs fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Soporte técnico</h4>
+					<p class="text-muted">Mantenimiento del sitio y resolución de problemas 24/7.</p>
+				</div>
+				<div class="col-md-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-map-marked-alt fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Mapa</h4>
+				</div>
+				<div class="col-md-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fab fa-google fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Google</h4>
+				</div>
+				<div class="col-md-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Rapida</h4>
 				</div>
 			</div>
 		</div>
