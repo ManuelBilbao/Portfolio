@@ -159,7 +159,7 @@
 						<div class="servicio">
 							<!-- <span class="fa-stack fa-4x"> -->
 								<!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
-								<i class="fas fa-book fa-5x"></i>
+								<i class="fas fa-graduation-cap fa-5x"></i>
 							<!-- </span> -->
 							<h4 class="service-heading">E-Learning</h4>
 							<p class="text-muted">Plataformas de cursos online donde se pueden subir videos y textos con opción de suscripciones de pago.</p>
