@@ -77,7 +77,7 @@
 						<?php else: ?>
 							<div class="col-12 col-lg-6 order-1 order-lg-12 mb-4 mb-lg-0 text-right">
 						<?php endif ?>
-								<img src="/static/img/servicios/<?php echo $caracteristica["imagen"] ?>" alt="" class="w-75">
+								<img src="/static/img/servicios/<?php echo $caracteristica["imagen"] ?>" alt="<?php echo $caracteristica["titulo"] ?>" class="w-75">
 							</div>
 					</div>
 				</div>
