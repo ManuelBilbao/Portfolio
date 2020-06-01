@@ -100,6 +100,16 @@ img::-moz-selection {
 	box-shadow: 0 0 0 0.2rem #cd7225F0 !important;
 }
 
+.btn-social {
+	height: 2.5rem;
+	width: 2.5rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	border-radius: 100%;
+}
+
 #mainNav {
 	background-color: #212529;
 }

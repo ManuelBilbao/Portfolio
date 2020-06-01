@@ -60,7 +60,7 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
-#services .col-11 {
+#servicios .col-11 {
 	z-index: 0;
 }
 
@@ -121,6 +121,27 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
 	margin: 15px 0;
 	text-transform: none;
+}
+
+.team-member {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.team-member img {
+	width: 225px;
+	height: 225px;
+	border: 7px solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4 {
+	margin-top: 25px;
+	margin-bottom: 0;
+	text-transform: none;
+}
+
+.team-member p {
+	margin-top: 0;
 }
 
 #portfolio .portfolio-item {
@@ -217,7 +238,7 @@ header.masthead .intro-text .intro-heading {
 	}
 }
 
-section#contact {
+section#contacto {
 	background-color: #212529;
 	background-image: url("../img/contacto-bg.jpg");
 	background-repeat: no-repeat;
@@ -226,37 +247,37 @@ section#contact {
 	box-shadow: #00000077 0 0 0 50vw inset;
 }
 
-section#contact .section-heading {
+section#contacto .section-heading {
 	color: #fff;
 }
 
-section#contact .form-group {
+section#contacto .form-group {
 	margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#contacto .form-group input,
+section#contacto .form-group textarea {
 	padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#contacto .form-group input.form-control {
 	height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#contacto .form-group textarea.form-control {
 	height: 248px;
 }
 
-section#contact .form-control:focus {
+section#contacto .form-control:focus {
 	border-color: #ed842a;
 	box-shadow: none;
 }
 
-section#contact ::placeholder,
-section#contact ::-webkit-input-placeholder,
-section#contact ::-moz-placeholder,
-section#contact :-moz-placeholder,
-section#contact :-ms-input-placeholder {
+section#contacto ::placeholder,
+section#contacto ::-webkit-input-placeholder,
+section#contacto ::-moz-placeholder,
+section#contacto :-moz-placeholder,
+section#contacto :-ms-input-placeholder {
 	font-weight: 700;
 	color: #ced4da;
 	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';

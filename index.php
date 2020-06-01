@@ -18,19 +18,19 @@
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav text-uppercase ml-auto">
 					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#servicios">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#prestaciones">Prestaciones</a>
+					</li>
+					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
-					</li>
-					<li class="nav-item">
-						<a href="#prestaciones" class="nav-link js-scroll-trigger">Prestaciones</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+						<a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a>
 					</li>
 				</ul>
 			</div>
@@ -43,39 +43,13 @@
 			<div class="intro-text">
 				<div class="intro-lead-in">¡Bienvenido!</div>
 				<div class="intro-heading text-uppercase">Estudio de diseño web</div>
-				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#nosotros">Ver más</a>
+				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#servicios">Ver más</a>
 			</div>
 		</div>
 	</header>
 
-	<!-- Nosotros -->
-	<section class="page-section bg-white" id="nosotros">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="section-heading text-uppercase">Nosotros</h2>
-				</div>
-			</div>
-			<div class="row mt-3 text-justify">
-				<div class="col-12 col-md-10 col-lg-8 mx-auto">
-					<p class="text-muted">
-						<strong><em>Estilo ñ</em></strong> es un estudio de desarrollo web dispuesto a desafiarse en todo momento y elaborar proyectos que sobresalgan, ofreciendo soluciones personalizadas para las necesidades de todos los clientes.
-						<br>
-						Creemos que lo más importante para una empresa es la imagen y la seguridad que transmite a sus clientes y es por eso que nosotros nos enfocamos en los detalles para cubrir al máximo todos los aspectos de un sitio web.
-					</p>
-					<p class="text-muted">
-						En <strong><em>Estilo ñ</em></strong> lo estaremos acompañando en todo el proceso de esta nueva etapa, desde el minuto cero aconsejándolo para que la transición hacia su nuevo sitio sea el ideal y libre de cualquier duda.
-					</p>
-					<p class="text-muted">
-						Bienvenido a <strong><em>Estilo ñ</em></strong>, donde el verdadero cambio comienza y los sueños se hacen realidad.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Services -->
-	<section class="page-section bg-light" id="services">
+	<!-- Servicios -->
+	<section class="page-section bg-light" id="servicios">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -252,7 +226,76 @@
 		</div>
 	</section>
 
-	<!-- Portfolio Grid -->
+	<!-- Nosotros -->
+	<section class="page-section bg-white" id="nosotros">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="section-heading text-uppercase">Nosotros</h2>
+				</div>
+			</div>
+			<div class="row mt-3 text-justify">
+				<div class="col-12 col-md-10 col-lg-8 mx-auto">
+					<p class="text-muted">
+						<strong><em>Estilo ñ</em></strong> es un estudio de desarrollo web dispuesto a desafiarse en todo momento y elaborar proyectos que sobresalgan, ofreciendo soluciones personalizadas para las necesidades de todos los clientes.
+						<br>
+						Creemos que lo más importante para una empresa es la imagen y la seguridad que transmite a sus clientes y es por eso que nosotros nos enfocamos en los detalles para cubrir al máximo todos los aspectos de un sitio web.
+					</p>
+					<p class="text-muted">
+						En <strong><em>Estilo ñ</em></strong> lo estaremos acompañando en todo el proceso de esta nueva etapa, desde el minuto cero aconsejándolo para que la transición hacia su nuevo sitio sea el ideal y libre de cualquier duda.
+					</p>
+					<p class="text-muted">
+						Bienvenido a <strong><em>Estilo ñ</em></strong>, donde el verdadero cambio comienza y los sueños se hacen realidad.
+					</p>
+				</div>
+			</div>
+
+			<div class="row mt-5">
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Manuel.jpg" alt="Foto de Manuel" />
+						<h4>Manuel</h4>
+						<p class="text-muted">Fundador<br>Programador Full Stack</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Florencia.jpg" alt="Foto de Florencia" />
+						<h4>Florencia</h4>
+						<p class="text-muted">Diseñadora<br>Relaciones Públicas</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Bianca.jpg" alt="Foto de Bianca" />
+						<h4>Bianca</h4>
+						<p class="text-muted">Productora Audiovisual<br>Fotógrafa profesional</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Equipo -->
+	<!-- <section class="page-section bg-light" id="team">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Nuestro equipo</h2>
+			</div>
+			
+		</div>
+	</section> -->
+
+	<!-- Portfolio -->
 	<section class="bg-light page-section" id="portfolio">
 		<div class="container">
 			<div class="row">
@@ -312,7 +355,7 @@
 	</section>
 
 	<!-- Contact -->
-	<section class="page-section" id="contact">
+	<section class="page-section" id="contacto">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
