@@ -373,7 +373,7 @@
 									<p class="help-block text-danger"></p>
 								</div>
 								<div class="form-group">
-									<input class="form-control" id="mail" name="mail" type="email" placeholder="Mail *" required="required" data-validation-required-message="Por favor ingrese su mail">
+									<input class="form-control" id="mail" name="mail" type="email" placeholder="Mail *" required="required" data-validation-required-message="Por favor ingrese su mail" data-validation-validemail-message="Dirección de mail inválida">
 									<p class="help-block text-danger"></p>
 								</div>
 								<div class="form-group">
