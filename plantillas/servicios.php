@@ -5,6 +5,7 @@
 	<?php require("head.php") ?>
 	<link rel="stylesheet" href="/static/css/servicios.css">
 	<link rel="stylesheet" href="/static/css/carousel.css">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
 
 	<style>
 		@media (max-width: 992px) {
@@ -61,7 +62,7 @@
 
 			<?php if ($n > 0): ?><hr class="w-50"><?php endif ?>
 
-			<section class="page-section caracteristicas">
+			<section class="page-section caracteristicas" data-aos="fade-up">
 				<div class="container">
 					<div class="row">
 						<?php if ($img_left): ?>
@@ -120,11 +121,16 @@
 	<?php require("footer.php") ?>
 
 	<?php require("scripts.php") ?>
+	<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
 	<script src="/static/js/global.js"></script>
 	<script src="/static/js/component.js"></script>
 	<script src="/static/js/cash.js"></script>
 	<script src="/static/js/carousel.js"></script>
 	<script>
+		  AOS.init({
+		  	duration: 1200,
+		  });
+
 		  $(document).ready(function(){
 		    $('.mat-carousel').carousel({"noWrap": true});
 		  });
