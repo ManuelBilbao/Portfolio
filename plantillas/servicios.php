@@ -86,7 +86,7 @@
 		<?php endforeach ?>
 	<?php endif ?>
 
-	<?php if (isset($precios)): ?>
+	<!-- <?php if (isset($precios)): ?>
 		<section class="page-section bg-light" id="precios">
 			<div class="container">
 				<div class="row">
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 		</section>
-	<?php endif ?>
+	<?php endif ?> -->
 
 	<?php require("footer.php") ?>
 
