@@ -6,15 +6,15 @@ $header_background = "ecommerce/header.jpg";
 $caracteristicas = [
 	[
 		"titulo" => "Ventas",
-		"descripcion" => "Lleve su negocio al siguiente nivel implementando su propia tienda online, donde podrá vender todos sus productos y servicios, logrando expandir las fronteras de su empresa a nivel nacional e incluso global.",
+		"descripcion" => "Lleve su negocio al siguiente nivel implementando su propia tienda online, donde podrá vender todos sus productos y servicios.",
 		"imagen" => "ecommerce/1.png"
 	], [
 		"titulo" => "Éxito",
-		"descripcion" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque ab id perspiciatis atque amet ducimus odio excepturi quos, consequatur assumenda similique rerum obcaecati optio exercitationem, magni. Repudiandae, iste, fugiat!",
+		"descripcion" => "Trascienda las fronteras y expanda su negocio a nivel provincial, nacional e internacional. La tienda online no solo le permite mostrarle a sus potenciales clientes sus productos y servicios sino que les facilita la compra, facilitandole también al cliente la experiencia de compra.",
 		"imagen" => "ecommerce/2.png"
 	], [
 		"titulo" => "Seguridad",
-		"descripcion" => "Cumplimos con los últimos estándares de seguridad, aportando al cliente una mayor confiabilidad del sitio. Esto implica una mayor tasa de conversión de visitas a ventas",
+		"descripcion" => "Cumplimos con los últimos estándares de seguridad informatica, aportandole al dueño y al cliente una mayor tranquilidad en el circuito de pago y por tanto, confibialidad del sitio. Esto implica una mayor tasa de conversión de visitas a ventas.",
 		"imagen" => "ecommerce/3.png"
 	]
 ];
