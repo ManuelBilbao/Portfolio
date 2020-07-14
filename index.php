@@ -183,7 +183,7 @@
 						<i class="fas fa-lock fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="service-heading">Seguridad</h4>
-					<p class="text-muted">Encriptación SSL/HTTPS para que los sitios sean 100% seguros y confiables. Escencial para el manejo de datos sensibles.</p>
+					<p class="text-muted">Encriptación SSL/HTTPS para que los sitios sean 100% seguros y confiables. Esencial para el manejo de datos sensibles.</p>
 				</div>
 				<div class="col-md-4 mt-2">
 					<span class="fa-stack fa-4x">
@@ -360,7 +360,6 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading text-uppercase">Contacto</h2>
-					<h3 class="section-subheading text-white">¡Pídanos su presupuesto sin cargo!</h3>
 				</div>
 			</div>
 			<div class="row">
