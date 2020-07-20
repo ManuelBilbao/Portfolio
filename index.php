@@ -123,7 +123,7 @@
 								<!-- <i class="fas fa-circle fa-stack-2x text-primary"></i> -->
 								<i class="far fa-building fa-5x"></i>
 							<!-- </span> -->
-							<h4 class="service-heading">Gestión</h4>
+							<h4 class="service-heading">Empresas</h4>
 							<p class="text-muted">Sistema de gestión personalizado para satisfacer las necesidades empresariales que se requieran.</p>
 						</div>
 					</a>

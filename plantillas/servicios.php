@@ -140,14 +140,15 @@
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
-				<form>
+				<form name="presupuestoForm" netlify>
+					<input type="hidden" class="hidden" name="servicio" value="<?php echo $nombre ?>">
 					<div class="modal-body">
 						<div class="container-fluid">
 							<div class="row">
 								<div class="col-12 col-lg">
 									<div class="form-group">
 										<label for="mail">Mail:</label>
-										<input type="mail" class="form-control w-100" id="mail" placeholder="juan@mail.com">
+										<input type="mail" class="form-control w-100" name="mail" id="mail" placeholder="juan@mail.com">
 									</div>
 								</div>
 								<div class="col-auto">
@@ -157,7 +158,7 @@
 								<div class="col-12 col-lg">
 									<div class="form-group">
 										<label for="telefono">Teléfono:</label>
-										<input type="tel" class=" form-control w-100" id="telefono" placeholder="1123456789">
+										<input type="tel" class=" form-control w-100" name="telefono" id="telefono" placeholder="1123456789">
 									</div>
 								</div>
 							</div>
