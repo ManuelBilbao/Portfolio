@@ -240,9 +240,9 @@ header.masthead .intro-text .intro-heading {
 
 section#contacto {
 	background-color: #212529;
-	background-image: url("../img/contacto-bg.jpg");
+	background-image: url("../img/contacto-bg4.jpg");
 	background-repeat: no-repeat;
-	background-position: center left;
+	background-position: center center;
 	background-size: cover;
 	box-shadow: #00000077 0 0 0 50vw inset;
 }

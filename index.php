@@ -24,10 +24,10 @@
 						<a class="nav-link js-scroll-trigger" href="#prestaciones">Prestaciones</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a>
+						<a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+						<a class="nav-link js-scroll-trigger" href="#nosotros">Nosotros</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a>
@@ -144,7 +144,7 @@
 
 			<div class="row mt-5">
 				<div class="col-auto m-auto text-center">
-					<h4 class="section-subheading text-muted mb-3">¿No encuentra lo que busca?</h4>
+					<h4 class="section-subheading text-muted mb-3">¿No encontró lo que buscaba?</h4>
 					<a href="/otros/" class="btn btn-xl btn-primary text-uppercase">Ver más opciones</a>
 				</div>
 			</div>
@@ -172,11 +172,19 @@
 				<div class="col-md-6 col-lg-4 mt-2">
 					<span class="fa-stack fa-4x">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fab fa-google fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="service-heading">Google</h4>
+					<p class="text-muted">Su negocio estará disponible en el mayor buscador de internet, con toda la información relevante para atraer a un mayor número de clientes.</p>
+				</div>
+				<!-- <div class="col-md-6 col-lg-4 mt-2">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="service-heading">Correos corporativos</h4>
 					<p class="text-muted">Correos electrónicos personalizados para una mejor imagen corporativa. (tunombre@tuempresa.com)</p>
-				</div>
+				</div> -->
 				<div class="col-md-6 col-lg-4 mt-2">
 					<span class="fa-stack fa-4x">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
@@ -185,7 +193,7 @@
 					<h4 class="service-heading">Seguridad</h4>
 					<p class="text-muted">Encriptación SSL/HTTPS para que los sitios sean 100% seguros y confiables. Esencial para el manejo de datos sensibles.</p>
 				</div>
-				<div class="col-md-4 mt-2">
+				<!-- <div class="col-md-4 mt-2">
 					<span class="fa-stack fa-4x">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-life-ring fa-stack-1x fa-inverse"></i>
@@ -200,100 +208,26 @@
 					</span>
 					<h4 class="service-heading">Soporte técnico</h4>
 					<p class="text-muted">Mantenimiento del sitio y resolución de problemas 24/7.</p>
-				</div>
-				<div class="col-md-4 mt-2">
+				</div> -->
+				<div class="col-md-6 col-lg-4 offset-lg-2 mt-2">
 					<span class="fa-stack fa-4x">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-map-marked-alt fa-stack-1x fa-inverse"></i>
 					</span>
 					<h4 class="service-heading">Mapa</h4>
+					<p class="text-muted">Incluimos en su sitio un mapa interactivo con la dirección de su preferencia, para que los clientes puedan hallar su negocio más fácilmente.</p>
 				</div>
-				<div class="col-md-4 mt-2">
-					<span class="fa-stack fa-4x">
-						<i class="fas fa-circle fa-stack-2x text-primary"></i>
-						<i class="fab fa-google fa-stack-1x fa-inverse"></i>
-					</span>
-					<h4 class="service-heading">Google</h4>
-				</div>
-				<div class="col-md-4 mt-2">
+				<div class="col-md-6 col-lg-4 mt-2">
 					<span class="fa-stack fa-4x">
 						<i class="fas fa-circle fa-stack-2x text-primary"></i>
 						<i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
 					</span>
-					<h4 class="service-heading">Rapida</h4>
+					<h4 class="service-heading">Rapidez</h4>
+					<p class="text-muted">Optimizamos al máximo los tiempos de carga de su sitio. ¿Sabía que el 50% de los usuarios se van antes de ver una página si demora demasiado en cargar?</p>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<!-- Nosotros -->
-	<section class="page-section bg-white" id="nosotros">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="section-heading text-uppercase">Nosotros</h2>
-				</div>
-			</div>
-			<div class="row mt-3 text-justify">
-				<div class="col-12 col-md-10 col-lg-8 mx-auto">
-					<p class="text-muted">
-						<strong><em>Estilo ñ</em></strong> es un estudio de desarrollo web dispuesto a desafiarse en todo momento y elaborar proyectos que sobresalgan, ofreciendo soluciones personalizadas para las necesidades de todos los clientes.
-						<br>
-						Creemos que lo más importante para una empresa es la imagen y la seguridad que transmite a sus clientes y es por eso que nosotros nos enfocamos en los detalles para cubrir al máximo todos los aspectos de un sitio web.
-					</p>
-					<p class="text-muted">
-						En <strong><em>Estilo ñ</em></strong> lo estaremos acompañando en todo el proceso de esta nueva etapa, desde el minuto cero aconsejándolo para que la transición hacia su nuevo sitio sea el ideal y libre de cualquier duda.
-					</p>
-					<p class="text-muted">
-						Bienvenido a <strong><em>Estilo ñ</em></strong>, donde el verdadero cambio comienza y los sueños se hacen realidad.
-					</p>
-				</div>
-			</div>
-
-			<div class="row mt-5">
-				<div class="col-lg-4">
-					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="static/img/equipo/Manuel.jpg" alt="Foto de Manuel" />
-						<h4>Manuel</h4>
-						<p class="text-muted">Fundador<br>Programador Full Stack</p>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="static/img/equipo/Florencia.jpg" alt="Foto de Florencia" />
-						<h4>Florencia</h4>
-						<p class="text-muted">Diseñadora<br>Relaciones Públicas</p>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="team-member">
-						<img class="mx-auto rounded-circle" src="static/img/equipo/Bianca.jpg" alt="Foto de Bianca" />
-						<h4>Bianca</h4>
-						<p class="text-muted">Productora Audiovisual<br>Fotógrafa profesional</p>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Equipo -->
-	<!-- <section class="page-section bg-light" id="team">
-		<div class="container">
-			<div class="text-center">
-				<h2 class="section-heading text-uppercase">Nuestro equipo</h2>
-			</div>
-			
-		</div>
-	</section> -->
 
 	<!-- Portfolio -->
 	<section class="bg-light page-section" id="portfolio">
@@ -354,12 +288,92 @@
 		</div>
 	</section>
 
+	<!-- Nosotros -->
+	<section class="page-section bg-white" id="nosotros">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h2 class="section-heading text-uppercase">Nosotros</h2>
+				</div>
+			</div>
+			<div class="row mt-3 text-justify">
+				<div class="col-12 col-md-10 col-lg-8 mx-auto">
+					<p class="text-muted">
+						<strong><em>Estilo ñ</em></strong> es un estudio de desarrollo web dispuesto a desafiarse en todo momento y elaborar proyectos que sobresalgan, ofreciendo soluciones personalizadas para las necesidades de todos los clientes.
+						<br>
+						Creemos que lo más importante para una empresa es la imagen y la seguridad que transmite a sus clientes y es por eso que nosotros nos enfocamos en los detalles para cubrir al máximo todos los aspectos de un sitio web.
+					</p>
+					<p class="text-muted">
+						En <strong><em>Estilo ñ</em></strong> lo estaremos acompañando en todo el proceso de esta nueva etapa, desde el minuto cero aconsejándolo para que la transición hacia su nuevo sitio sea el ideal y libre de cualquier duda.
+					</p>
+					<p class="text-muted">
+						Bienvenido a <strong><em>Estilo ñ</em></strong>, donde el verdadero cambio comienza y los sueños se hacen realidad.
+					</p>
+				</div>
+			</div>
+
+			<!-- Staff -->
+			<!-- <div class="row mt-5">
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Manuel.jpg" alt="Foto de Manuel" />
+						<h4>Manuel</h4>
+						<p class="text-muted">Fundador<br>Programador Full Stack</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Florencia.jpg" alt="Foto de Florencia" />
+						<h4>Florencia</h4>
+						<p class="text-muted">Diseñadora<br>Relaciones Públicas</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/equipo/Bianca.jpg" alt="Foto de Bianca" />
+						<h4>Bianca</h4>
+						<p class="text-muted">Productora Audiovisual<br>Fotógrafa profesional</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<!-- Equipo -->
+	<!-- <section class="page-section bg-light" id="team">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Nuestro equipo</h2>
+			</div>
+			
+		</div>
+	</section> -->
+
 	<!-- Contact -->
 	<section class="page-section" id="contacto">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2 class="section-heading text-uppercase">Contacto</h2>
+					<h2 class="section-heading text-uppercase mb-2">Contacto</h2>
+					<h3 class="section-subheading text-white">
+						<a href="mailto:manuel@bilbao.ar" class="text-decoration-none text-white">
+							<i class="fas fa-envelope"></i>&nbsp; info@estiloñ.com.ar
+						</a>
+						<br class="d-block d-md-none">
+						<span class="d-none d-md-inline px-3">&nbsp;</span>
+						<a href="https://wa.me/541134049633" class="text-decoration-none text-white">
+							<i class="fab fa-whatsapp"></i>&nbsp; 11 3404-9633
+						</a>
+					</h3>
 				</div>
 			</div>
 			<div class="row">

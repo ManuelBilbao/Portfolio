@@ -4,7 +4,6 @@
 <head>
 	<?php require("head.php") ?>
 	<link rel="stylesheet" href="/static/css/servicios.css">
-	<link rel="stylesheet" href="/static/css/carousel.css">
 	<link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
 
 	<style>
@@ -36,16 +35,8 @@
 						</li>
 					<?php endif ?>
 					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#prestaciones">Prestaciones</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#presupuesto">Presupuesto</a>
 					</li>
-					<?php if (isset($precios)): ?>
-						<li class="nav-item">
-							<a class="nav-link js-scroll-trigger" href="#precios">Precios</a>
-						</li>
-					<?php endif ?>
 				</ul>
 			</div>
 		</div>
@@ -87,38 +78,6 @@
 		<?php endforeach ?>
 		</section>
 	<?php endif ?>
-
-	<!-- <?php if (isset($precios)): ?>
-		<section class="page-section bg-light" id="precios">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h2 class="section-heading text-uppercase">Precios</h2>
-					</div>
-				</div>
-
-				<div class="row d-none d-lg-flex mt-3">
-					<?php foreach ($precios as $precio): ?>
-						<div class="col">
-							<?php include("servicios/card-precios.php"); ?>
-						</div>
-					<?php endforeach ?>
-				</div>
-
-				<div class="row d-flex d-lg-none">
-					<div class="col-12">
-						<div class="mat-carousel">
-							<?php foreach ($precios as $precio): ?>
-								<div class="mat-carousel-item w-75">
-									<?php include("servicios/card-precios.php"); ?>
-								</div>
-							<?php endforeach ?>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-	<?php endif ?> -->
 
 	<section class="page-section bg-light" id="presupuesto">
 		<div class="container">
@@ -177,22 +136,11 @@
 
 	<?php require("scripts.php") ?>
 	<script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
-	<script src="/static/js/global.js"></script>
-	<script src="/static/js/component.js"></script>
-	<script src="/static/js/cash.js"></script>
-	<script src="/static/js/carousel.js"></script>
 	<script>
 		  AOS.init({
 		  	offset: 0,
 		  	duration: 900,
 		  });
-
-		  $(document).ready(function(){
-		    $('.mat-carousel').carousel({"noWrap": true});
-		  });
-
-		  var alto = $(".card-precios").last().height()
-		  $(".mat-carousel").height(alto * 1.1);
 	</script>
 </body>
 </html>

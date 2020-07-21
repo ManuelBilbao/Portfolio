@@ -10,7 +10,7 @@ $caracteristicas = [
 		"imagen" => "elearning/1.png"
 	], [
 		"titulo" => "Capacitación empresarial",
-		"descripcion" => "Obtenga una plataforma intuitiva y práctica para que sus empleados realicen las capacitaciones adecuadas sin dificultades a distancia. En donde pueda subir todo el contenido necesario para ellos.",
+		"descripcion" => "Obtenga una plataforma intuitiva y práctica para que sus empleados realicen las capacitaciones adecuadas a distancia sin dificultades, en donde pueda subir todo el contenido necesario para ellos.",
 		"imagen" => "elearning/2.png"
 	], [
 		"titulo" => "Seguridad",

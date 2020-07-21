@@ -39,19 +39,6 @@ header {
 	}
 }
 
-.precio {
-	font-size: 2em;
-}
-
-.card-precios {
-	height: 100%;
-}
-
-.mat-carousel-item {
-	height: auto!important;
-	top: -10%!important;
-}
-
 .page-section {
 	padding: 50px 0;
 }
