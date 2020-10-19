@@ -83,14 +83,16 @@
           // Get references to everything we're interested in
           var $this = $(this),
             $controlGroup = $this.parents(".form-group").first(),
-            $helpBlock = $controlGroup.find(".help-block").first(),
+            $helpBlock = $controlGroup.find(".input-group-text").first(),
             $form = $this.parents("form").first(),
             validatorNames = [];
 
           // create message container if not exists
           if (!$helpBlock.length && settings.options.autoAdd && settings.options.autoAdd.helpBlocks) {
-            $helpBlock = $('<div class="help-block" />');
-            $controlGroup.find('.controls').append($helpBlock);
+            $append = $('<div class="input-group-append" />')
+            $helpBlock = $('<div class="input-group-text" />');
+            $controlGroup.find('.input-group').append($append);
+            $controlGroup.find('.input-group-append').append($helpBlock)
             createdElements.push($helpBlock[0]);
           }
 
@@ -482,7 +484,7 @@
                     (settings.options.prependExistingHelpBlock ? $helpBlock.data("original-contents") : ""));
                 } else {
                   // Multiple? Being sloppy? Glue them together into an UL.
-                  $helpBlock.html("<ul role=\"alert\"><li>" + errorsFound.join("</li><li>") + "</li></ul>" +
+                  $helpBlock.html(errorsFound + 
                     (settings.options.prependExistingHelpBlock ? $helpBlock.data("original-contents") : ""));
                 }
               } else {
@@ -511,7 +513,7 @@
             var
               $this = $(this),
               $controlGroup = $this.parents(".form-group").first(),
-              $helpBlock = $controlGroup.find(".help-block").first();
+              $helpBlock = $controlGroup.find(".input-group-text").first();
 
             // remove our events
             $this.unbind('.validation'); // events are namespaced.
