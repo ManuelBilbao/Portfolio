@@ -41,7 +41,7 @@
 	<header class="masthead">
 		<div class="container">
 			<div class="intro-text">
-				<div class="intro-lead-in">¡Bienvenido!</div>
+				<!-- <div class="intro-lead-in">¡Bienvenido!</div> -->
 				<div class="intro-heading text-uppercase">Estudio de diseño web</div>
 				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#servicios">Ver más</a>
 			</div>
@@ -239,8 +239,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="portfolio-item">
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="portfolio-item d-inline-block">
 						<a class="portfolio-link" target="_blank" href="https://nohuddle.com.ar/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
@@ -254,32 +254,32 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="portfolio-item">
-						<a class="portfolio-link" target="_blank" href="portfolio/baran/">
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="portfolio-item d-inline-block">
+						<a class="portfolio-link" target="_blank" href="https://vyaminsumosmedicos.com.ar/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
 									<i class="fas fa-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="/static/img/portfolio/baran.png" alt="">
+							<img class="img-fluid" src="/static/img/portfolio/vyaminsumosmedicos.png" alt="">
 							<div class="portfolio-caption text-body">
-								<h4>Grupo Baran</h4>
+								<h4>Vyam Insumos Médicos</h4>
 							</div>
 						</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="portfolio-item">
-						<a class="portfolio-link" target="_blank" href="https://www.ms-brokers.com.ar/">
+				<div class="col-lg-4 col-md-6 text-center">
+					<div class="portfolio-item d-inline-block">
+						<a class="portfolio-link" target="_blank" href="https://www.biancabilbao.com/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
 									<i class="fas fa-plus fa-3x"></i>
 								</div>
 							</div>
-							<img class="img-fluid" src="/static/img/portfolio/msbrokers.png" alt="">
+							<img class="img-fluid" src="/static/img/portfolio/biancabilbao.png" alt="">
 							<div class="portfolio-caption text-body">
-								<h4>MS-Brokers</h4>
+								<h4>Bianca Bilbao PH</h4>
 							</div>
 						</a>
 					</div>
