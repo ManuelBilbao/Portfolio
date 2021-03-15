@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-	<?php require("plantillas/head.php") ?>
+	<?php require("./plantillas/head.php") ?>
 	<link rel="stylesheet" href="/static/css/inicio.css">
 </head>
 
@@ -378,48 +378,16 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<form id="contactForm" name="contactForm" novalidate="novalidate" netlify>
-						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<input class="form-control" id="nombre" name="nombre" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Por favor ingrese su nombre">
-									<p class="help-block text-danger"></p>
-								</div>
-								<div class="form-group">
-									<input class="form-control" id="mail" name="mail" type="email" placeholder="Mail *" required="required" data-validation-required-message="Por favor ingrese su mail" data-validation-validemail-message="Dirección de mail inválida">
-									<p class="help-block text-danger"></p>
-								</div>
-								<div class="form-group">
-									<input class="form-control" id="telefono" name="telefono" type="tel" placeholder="Teléfono">
-									<p class="help-block text-danger"></p>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje *" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
-									<p class="help-block text-danger"></p>
-								</div>
-							</div>
-							<div class="clearfix"></div>
-							<div class="col-lg-12 text-center">
-								<div id="success"></div>
-								<button id="btnEnviarMensaje" class="btn btn-primary btn-xl text-uppercase" type="submit">Enviar</button>
-							</div>
-						</div>
-					</form>
+					<?php $servicio = "inicio" ?>
+					<?php require("./plantillas/contact_form.php") ?>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<?php require("plantillas/footer.php") ?>
+	<?php require("./plantillas/footer.php") ?>
 
-	<?php require("plantillas/scripts.php") ?>
-
-	<!-- Contact form JavaScript -->
-	<!-- <script src="/static/js/jqBootstrapValidation.js"></script>
-	<script src="/static/js/contact_me.js"></script> -->
-	<script src="/static/js/contacto.js"></script>
+	<?php require("./plantillas/scripts.php") ?>
 </body>
 
 </html>

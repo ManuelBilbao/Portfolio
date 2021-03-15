@@ -282,3 +282,14 @@ section#contacto :-ms-input-placeholder {
 	color: #ced4da;
 	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+.invalid-feedback {
+	color: white;
+	background-color: #dc3545;
+	padding: 0.2em 0.5em;
+	border-radius: 3px;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+	margin-bottom: 1px;
+}

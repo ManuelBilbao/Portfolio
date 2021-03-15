@@ -42,3 +42,55 @@ header {
 .page-section {
 	padding: 50px 0;
 }
+
+section#contacto {
+	/*background-color: #212529;*/
+	/*background-image: url("../img/contacto-bg4.jpg");*/
+	/*background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	box-shadow: #00000077 0 0 0 50vw inset;*/
+}
+
+section#contacto .section-heading {
+	/*color: #fff;*/
+}
+
+section#contacto .form-group {
+	margin-bottom: 25px;
+}
+
+section#contacto .form-group input,
+section#contacto .form-group textarea {
+	padding: 20px;
+}
+
+section#contacto .form-group input.form-control {
+	height: auto;
+}
+
+section#contacto .form-group textarea.form-control {
+	height: 248px;
+}
+
+section#contacto .form-control:focus {
+	border-color: #ed842a;
+	box-shadow: none;
+}
+
+section#contacto ::placeholder,
+section#contacto ::-webkit-input-placeholder,
+section#contacto ::-moz-placeholder,
+section#contacto :-moz-placeholder,
+section#contacto :-ms-input-placeholder {
+	font-weight: 700;
+	color: #ced4da;
+	font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (max-width: 992px) {
+	#caracteristicas,
+	#caracteristicas div {
+		text-align: center!important;
+	}
+}

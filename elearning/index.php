@@ -1,5 +1,6 @@
 <?php
 
+$servicio = "elearning";
 $nombre = "E-Learning";
 $header_background = "elearning/header.jpg";
 
@@ -19,6 +20,6 @@ $caracteristicas = [
 	]
 ];
 
-require("../plantillas/servicios.php");
+require("../plantillas/servicios/servicios.php");
 
 ?>
