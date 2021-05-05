@@ -118,58 +118,22 @@
 		</div>
 	</section>
 
-	<section class="page-section bg-light" id="presupuesto">
+	<section class="page-section bg-light" id="contacto">
 		<div class="container">
-			<div class="row text-center">
+			<div class="row">
 				<div class="col-12">
-					<h2 class="section-heading">Presupuesto</h2>
-					<button type="button" class="btn btn-xl btn-primary" data-toggle="modal" data-target=".modal">Solicite su presupuesto GRATIS</a>
+					<h2 class="section-heading text-center">Presupuesto</h2>
+					<h5 class="text-muted font-weight-normal text-center">Solicite su presupuesto <strong class="body">SIN CARGO</strong></h5>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col-12">
+					<?php $servicio = "otros" ?>
+					<?php require("../plantillas/contact_form.php") ?>
 				</div>
 			</div>
 		</div>
 	</section>
-
-	<div class="modal fade" tabindex="-1" role="dialog">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Solicite su presupuesto GRATIS</h5>
-					<button class="close" tpye="button" data-dismiss="modal" aria-label="Cerrar">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<form name="presupuestoForm" netlify>
-					<input type="hidden" class="hidden" name="servicio" value="Otros">
-					<div class="modal-body">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-12 col-lg">
-									<div class="form-group">
-										<label for="mail">Mail:</label>
-										<input type="mail" class="form-control w-100" name="mail" id="mail" placeholder="juan@mail.com">
-									</div>
-								</div>
-								<div class="col-auto">
-									<label class="d-none d-lg-block">&nbsp;</label>
-									<p>ó</p>
-								</div>
-								<div class="col-12 col-lg">
-									<div class="form-group">
-										<label for="telefono">Teléfono:</label>
-										<input type="tel" class=" form-control w-100" name="telefono" id="telefono" placeholder="1123456789">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-						<button class="btn btn-primary" type="submit">Enviar</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
 
 	<?php require("../plantillas/footer.php") ?>
 

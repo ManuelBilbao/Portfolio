@@ -1,5 +1,6 @@
 <?php
 
+$servicio = "turnos";
 $nombre = "Turnos";
 $header_background = "turnos/header.jpg";
 
@@ -19,6 +20,6 @@ $caracteristicas = [
 	]
 ];
 
-require("../plantillas/servicios.php");
+require("../plantillas/servicios/servicios.php");
 
 ?>
