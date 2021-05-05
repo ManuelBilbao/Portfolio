@@ -1,0 +1,5 @@
+[[headers]]
+	for = "/presupuestos/*"
+	
+	[headers.value]
+		Content-Disposition = "attachment"
