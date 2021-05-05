@@ -1,5 +1,6 @@
 <?php
 
+$servicio = "ecommerce";
 $nombre = "E-Commerce";
 $header_background = "ecommerce/header.jpg";
 
@@ -19,6 +20,6 @@ $caracteristicas = [
 	]
 ];
 
-require("../plantillas/servicios.php");
+require("../plantillas/servicios/servicios.php");
 
 ?>

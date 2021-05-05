@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-12 col-md-auto">
-				<span class="copyright">Copyright © Estilo ñ 2020</span>
+				<span class="copyright">Copyright © Estilo ñ 2021</span>
 			</div>
 			<div class="col-12 col-md-auto ml-md-auto">
 				<ul class="list-inline quicklinks">

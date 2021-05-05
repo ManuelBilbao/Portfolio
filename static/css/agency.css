@@ -271,3 +271,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .text-rojo {
 	color: #e53935;
 }
+
+#modal-icon {
+	font-size: 8rem;
+}

@@ -1,5 +1,6 @@
 <?php
 
+$servicio = "blog";
 $nombre = "Noticias / Blogs";
 $header_background = "blog/header.jpg";
 
@@ -19,6 +20,6 @@ $caracteristicas = [
 	]
 ];
 
-require("../plantillas/servicios.php");
+require("../plantillas/servicios/servicios.php");
 
 ?>
