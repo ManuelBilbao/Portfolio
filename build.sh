@@ -18,5 +18,6 @@ done
 
 cd "$BASE"
 cp -r static "$DEST"
+cp -r presupuestos "$DEST"
 cp LICENSE "$DEST"
 php "404.php" > "$BASE/$DEST/404.html"
