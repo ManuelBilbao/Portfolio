@@ -18,6 +18,7 @@ done
 
 cd "$BASE"
 cp netlify.toml "$DEST"
+cp _headers "$DEST"
 cp -r static "$DEST"
 cp -r presupuestos "$DEST"
 cp LICENSE "$DEST"
