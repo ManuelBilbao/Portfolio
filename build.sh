@@ -17,6 +17,8 @@ while read x; do \
 done
 
 cd "$BASE"
+cp netlify.toml "$DEST"
 cp -r static "$DEST"
+cp -r presupuestos "$DEST"
 cp LICENSE "$DEST"
 php "404.php" > "$BASE/$DEST/404.html"
