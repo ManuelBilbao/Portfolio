@@ -1,0 +1,6 @@
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/presupuestos/*"
+
+  [headers.values]
+    Content-Disposition = "attachment"
