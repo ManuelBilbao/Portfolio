@@ -241,7 +241,7 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="portfolio-item d-inline-block">
-						<a class="portfolio-link" target="_blank" href="https://nohuddle.com.ar/">
+						<a class="portfolio-link" target="_blank" rel="noopener" href="https://nohuddle.com.ar/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
 									<i class="fas fa-plus fa-3x"></i>
@@ -256,7 +256,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="portfolio-item d-inline-block">
-						<a class="portfolio-link" target="_blank" href="https://vyaminsumosmedicos.com.ar/">
+						<a class="portfolio-link" target="_blank" rel="noopener" href="https://vyaminsumosmedicos.com.ar/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
 									<i class="fas fa-plus fa-3x"></i>
@@ -271,7 +271,7 @@
 				</div>
 				<div class="col-lg-4 col-md-6 text-center">
 					<div class="portfolio-item d-inline-block">
-						<a class="portfolio-link" target="_blank" href="https://www.biancabilbao.com/">
+						<a class="portfolio-link" target="_blank" rel="noopener" href="https://www.biancabilbao.com/">
 							<div class="portfolio-hover">
 								<div class="portfolio-hover-content">
 									<i class="fas fa-plus fa-3x"></i>
